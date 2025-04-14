@@ -1,0 +1,14 @@
+[project]
+title = "Stroke Risk Explorer"
+version = "0.1.0"
+port = 8501
+slug = "stroke-risk-explorer"
+entrypoint = "hello.py"
+
+[data.stroke_data]
+type = "csv"
+path = "data/stroke_data.csv"
+
+logo = "images/logo.png"
+favicon = "images/favicon.png"
+
